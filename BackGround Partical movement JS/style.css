@@ -1,0 +1,23 @@
+:root {
+    --item-size: 60px;
+    --carousel-size: 300px;
+    --item-count: 4;
+    overflow-y: auto;
+  }
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  #particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
